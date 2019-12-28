@@ -1,0 +1,9 @@
+#!/bin/bash
+
+az(){
+	docker run -it --rm \
+		-v "${HOME}/.azure:/root/.azure" \
+		-v "${HOME}/.kube:/root/.kube" \
+		--log-driver none \
+		jess/azure-cli:${AZ_VERSION} "$@"
+}

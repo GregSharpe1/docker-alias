@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#pulumi() {
+#	docker run -it --rm \
+#		pulumi/pulumi "$@"
+#}

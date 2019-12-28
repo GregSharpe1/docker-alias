@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#helm(){
+#	docker run -it --rm \
+#		-v "${PWD}:/apps" \
+#		-v "${HOME}/.kube:/root/.kube" \
+#		-v "${HOME}/.helm:/root/.helm" \
+#		-v "${HOME}/.helm/repository/cache/stable-index.yaml:/root/.helm/repository/cache/stable-index.yaml" \
+#		alpine/helm:${HELM_VERSION} "$@"
+#}

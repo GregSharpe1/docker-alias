@@ -1,0 +1,5 @@
+ykman(){
+	docker run --rm -it \
+   	    --name ykman \
+   	    r.j3ss.co/ykman bash
+}

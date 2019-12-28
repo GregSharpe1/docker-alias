@@ -1,0 +1,4 @@
+stern() {
+	docker run --rm \
+		gregsharpe/stern:latest
+}

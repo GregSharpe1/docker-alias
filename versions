@@ -1,0 +1,8 @@
+export TERRAFORM_VERSION=0.12.6
+export TERRAGRUNT_VERSION=0.21.1
+export HELM_VERSION=2.14.1
+export ANSIBLE_VERSION=2.2.1
+export AWSCLI_VERSION=latest
+export AZ_VERSION=latest
+export HUGO_VERSION=latest
+export JX_VERSION=2.0.137

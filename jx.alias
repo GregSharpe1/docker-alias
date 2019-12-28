@@ -1,0 +1,4 @@
+jx() {
+	docker run -it --rm \
+		jenkinsxio/jx:${JX_VERSION} "$@"
+}

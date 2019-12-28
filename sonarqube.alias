@@ -1,0 +1,7 @@
+sonarqube() {
+	docker run --rm \
+		--name sonarqube \
+		--port 9000:9000 \
+		--port 9092:9092 \
+		sonarqube:latest
+}

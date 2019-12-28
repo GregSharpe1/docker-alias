@@ -1,0 +1,6 @@
+lpass(){
+	docker run --rm -it \
+		-v "${HOME}/.lpass:/root/.lpass" \
+		--name lpass \
+		jess/lpass "$@"
+}

@@ -1,0 +1,5 @@
+java() {
+	docker run --rm -it \
+		--name javajdk8 \
+		openjdk:8u201-jdk-alpine3.9 java "$@"
+}

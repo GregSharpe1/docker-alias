@@ -1,0 +1,6 @@
+ykpersonalise() {
+	 docker run --rm -it \
+ 		--device /dev/bus/usb \
+ 		--device /dev/usb \
+		jess/ykpersonalize "$@"
+}

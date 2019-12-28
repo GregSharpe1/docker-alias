@@ -1,0 +1,6 @@
+hugo(){
+	docker run -it --rm \
+		--entrypoint="hugo" \
+		-v "${HOME}:${HOME}:ro" \
+		publysher/hugo:${HUGO_VERSION} "$@"
+}

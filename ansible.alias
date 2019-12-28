@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ansible() {
+ 	docker run --rm -it \
+ 		-v ${HOME}/.ssh:/root/.ssh:ro \
+ 		jess/ansible:${ANSIBLE_VERSION} "$@"
+}
